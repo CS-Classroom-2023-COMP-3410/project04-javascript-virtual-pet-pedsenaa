@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Virtual Pet</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 style="text-align:center;">JavaScript Virtual Pet</h1>
+
+    <div id="pet" class="happy">
+      <div id="background">
+
+        <div id="hud">
+          <div id="clock">Time: 0s</div>
+
+          <div class="row">Health: <span id="healthText"></span></div>
+          <div class="row">Energy: <span id="energyText"></span></div>
+          <div class="row">Hunger: <span id="hungerText"></span></div>
+          <div class="row">Happiness: <span id="happyText"></span></div>
+
+          <div id="message"></div>
+        </div>
+
+        <div id="pet-shape">
+          <div class="eyes"><span></span><span></span></div>
+          <div class="mouth"></div>
+        </div>
+
+        <div id="pet-text"></div>
+
+        <div id="controls">
+          <button id="playBtn">Play</button>
+          <button id="feedBtn">Feed</button>
+          <button id="sleepBtn">Sleep</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
